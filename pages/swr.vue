@@ -8,4 +8,7 @@
 
 <script setup>
 console.log("Swr page");
+definePageMeta({
+  middleware: ["test"],
+});
 </script>
